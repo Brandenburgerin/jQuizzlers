@@ -1,8 +1,8 @@
 # jQuizzlers
 > Yet another quiz app again.
 
-In root directory:
 ## Installation
+In root directory:
 ```js
 npm install
 ```

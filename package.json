@@ -24,7 +24,9 @@
     "email": "Brandenburgerin@users.noreply.github.com"
   },
   "preferGlobal": true,
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.12.4"
+  },
   "devDependencies": {
     "jasmine": "^2.3.1"
   }

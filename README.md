@@ -1,10 +1,28 @@
 # jQuizzlers
-Yet another quiz app again.
+> Yet another quiz app again.
 
-Kanban-Board: https://trello.com/b/Pmu7oq47/jquizzler
+## Installation
+In root directory:
+```js
+npm install
+```
+then
+```js
+bower install
+```
 
+## Start server
 
+In root directory:
+```js
+node server.js
+```
 
+## Webapp URL
+
+http://localhost:3000
+
+## Organizational
 Tools:
-- Wireframes erstellen: https://gomockingbird.com
-- IDE (im Browser): https://c9.io/
+- Wireframes: https://gomockingbird.com
+- Kanban Board: https://trello.com/b/Pmu7oq47/jquizzler

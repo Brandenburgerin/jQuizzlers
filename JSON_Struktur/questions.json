@@ -1,0 +1,15 @@
+{
+	"_id": 123, 						// ID in der DB
+	"number": 2, 						// Zahl der Frage (bei Spielverlauf - bisher gestellte Fragen)
+	"category": "Lorem Ipsum",			// Freitext
+	"question": "Lorem Ipsum Dolor",	// Freitext 
+	"answers": [ 						// Möglichkeit von 2-4 Antworten
+		{"1": "sit amet"}, 
+		{"2": "sit amet"}, 
+		{"3": "sit amet"}, 
+		{"4": "sit amet"}
+	],
+	// Informationen, die an die Clients während der Raterunde gesendet werden
+	"correct": 3,						// Korrekte Antwort (Index aus dem Fragenpool)
+	"points": 1 						// Punkte, die zu erreichen sind, wenn die Frage korrekt beantwortet wurde
+}

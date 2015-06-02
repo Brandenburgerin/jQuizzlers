@@ -13,3 +13,14 @@
 	"correct": 3,						// Korrekte Antwort (Index aus dem Fragenpool)
 	"points": 1 						// Punkte, die zu erreichen sind, wenn die Frage korrekt beantwortet wurde
 }
+{
+    "_id" : ObjectId("556def13d8167f78237aa573"),
+    "number" : 2,
+    "category" : "Lorem Ipsum",
+    "question" : "Lorem Ipsum Dolor",
+    "correct" : 3,
+    "points" : 1,
+    "answers" : [ 
+        "sit amet"
+    ]
+}

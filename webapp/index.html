@@ -8,6 +8,8 @@
     <link rel="import" href="lib/core-header-panel/core-header-panel.html">
     <link rel="import" href="lib/core-drawer-panel/core-drawer-panel.html">
     <link rel="import" href="lib/core-scaffold/core-scaffold.html">
+    <link rel="import" href="lib/core-ajax/core-ajax.html">
+    <link rel="import" href="components/questions-list.html">
     <title>Welcome!</title>
   </head>
   
@@ -23,6 +25,10 @@
         </core-menu>
       </core-header-panel>
       <span tool>jQuizzlers 0.0.1</span>
+      <questions-list></questions-list>
+      <form method="post" action="/questions">
+        <input type="submit" value="Create Demo Question">
+      </form>
       <div class="content">Welcome to the perfect Single Page App. (Known bugs: 0)</div>
     </core-scaffold>
   </body>

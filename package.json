@@ -25,7 +25,8 @@
   },
   "preferGlobal": true,
   "dependencies": {
-    "express": "^4.12.4"
+    "express": "^4.12.4",
+    "mongoose": "^4.0.4"
   },
   "devDependencies": {
     "jasmine": "^2.3.1"
